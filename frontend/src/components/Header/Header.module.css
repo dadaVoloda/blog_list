@@ -1,0 +1,31 @@
+.header {
+  background-color: var(--accent-light-color);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1030px;
+  padding: 8px 15px;
+  margin: 0 auto;
+  min-height: 56px;
+}
+
+.navigation {
+  display: flex;
+  gap: 10px;
+}
+
+.navigation a {
+  font-size: 18px;
+  transition: var(--tr-time);
+}
+
+.navigation a:hover {
+  opacity: 0.85;
+}
+
+.navigation .active {
+  color: var(--accent-color);
+}

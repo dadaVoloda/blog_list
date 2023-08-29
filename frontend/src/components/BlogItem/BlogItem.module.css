@@ -1,0 +1,31 @@
+.blogItem {
+  padding: 12px;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  transition: var(--tr-time);
+}
+
+.blogItem:hover {
+  box-shadow: var(--box-shadow-hover);
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  opacity: 0.8;
+}
+
+.date {
+  margin-left: 16px;
+  opacity: 0.7;
+}
+
+.title {
+  font-size: 22px;
+}
+
+.removeBtn {
+  padding: 4px 8px;
+  margin-left: auto;
+  font-size: 12px;
+}

@@ -1,0 +1,23 @@
+.button {
+  padding: 6px 12px;
+  color: var(--white-color);
+  border-radius: var(--border-radius);
+  background-color: var(--accent-color);
+  transition: var(--tr-time);
+}
+
+.button:hover {
+  background-color: var(--accent-hover-color);
+}
+
+.ghost {
+  background-color: transparent;
+}
+
+.danger {
+  background-color: var(--error-color);
+}
+
+.danger:hover {
+  background-color: var(--error-hover-color);
+}

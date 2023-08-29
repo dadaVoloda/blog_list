@@ -1,0 +1,21 @@
+.list {
+  margin-top: 16px;
+}
+
+.comment {
+  padding: 6px 12px;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+.comment:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.commentTop {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 8px;
+  font-size: 14px;
+  opacity: 0.8;
+}

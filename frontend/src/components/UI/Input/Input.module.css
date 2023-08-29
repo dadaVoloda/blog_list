@@ -1,0 +1,31 @@
+.wrapper {
+  position: relative;
+  margin: 16px 0;
+}
+
+.input {
+  width: 100%;
+  padding: 7px 12px;
+  border-radius: var(--border-radius);
+  border: 1px solid;
+}
+
+.label {
+  position: absolute;
+  top: 50%;
+  left: 6px;
+  padding: 0 4px;
+  font-size: 14px;
+  line-height: 1;
+  background-color: var(--bg-color);
+  transform: translateY(-50%);
+  transition: top var(--tr-time);
+}
+
+.inTop {
+  top: 0;
+}
+
+.hidden {
+  opacity: 0;
+}

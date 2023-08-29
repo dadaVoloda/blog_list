@@ -1,0 +1,12 @@
+.count {
+  text-align: center;
+  min-width: 100px;
+}
+
+.link {
+  transition: var(--tr-time);
+}
+
+.link:hover {
+  color: var(--accent-color);
+}

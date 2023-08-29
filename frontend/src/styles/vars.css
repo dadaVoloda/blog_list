@@ -1,0 +1,16 @@
+:root {
+  --primary-color: #222;
+  --accent-color: rgb(63, 63, 192);
+  --accent-hover-color: #5e5eda;
+  --accent-light-color: #e8e8fa;
+  --white-color: #fff;
+  --bg-color: #fcfcfc;
+  --error-color: #b64e4e;
+  --error-hover-color: #c96363;
+
+  --box-shadow: 1px 1px 10px 0px rgba(34, 34, 34, 0.1);
+  --box-shadow-hover: 1px 1px 10px 0px rgba(34, 34, 34, 0.2);
+
+  --border-radius: 8px;
+  --tr-time: 0.25s;
+}

@@ -1,0 +1,35 @@
+.top {
+  display: flex;
+  align-items: center;
+  opacity: 0.8;
+}
+
+.date {
+  margin-left: 16px;
+  opacity: 0.7;
+}
+
+.title {
+  font-size: 22px;
+}
+
+.url {
+  text-decoration: underline;
+  transition: var(--tr-time);
+}
+
+.url:hover {
+  color: var(--accent-color);
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 16px 0;
+}
+
+.btn {
+  padding: 4px 8px;
+  font-size: 12px;
+}

@@ -1,0 +1,9 @@
+.blogForm {
+  max-width: 500px;
+}
+
+.createBtn {
+  margin-bottom: 8px;
+  max-width: 200px;
+  width: 100%;
+}

@@ -1,0 +1,16 @@
+.notice {
+  padding: 8px;
+  margin: 12px 0;
+  font-size: 18px;
+  background: var(--white-color);
+  border-style: solid;
+  border-radius: var(--border-radius);
+}
+
+.success {
+  color: var(--accent-color);
+}
+
+.error {
+  color: var(--error-color);
+}
