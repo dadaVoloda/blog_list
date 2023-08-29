@@ -1,6 +1,6 @@
 # BlogList
 
-[BlogList]() - самостоятельный проект после прохождения 8 частей курса ([_Full Stack Open_](https://fullstackopen.com/en/))
+[BlogList](https://blog-list-hmt5.onrender.com/) - самостоятельный проект после прохождения 8 частей курса ([_Full Stack Open_](https://fullstackopen.com/en/))
 
 ## Stack:
 
